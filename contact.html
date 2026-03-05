@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Royal Restaurant</title>
+
+  <link rel="stylesheet" href="css/contact.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="home.html">
+        <span class="brand-mark">🍴</span>
+        <span class="brand-name">Royal Restaurant</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+
+      <a class="btn btn-primary" href="contact.html">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero hero-contact">
+      <div class="hero-bg hero-bg-contact"
+        style="background-image:
+          linear-gradient(90deg, rgba(16,24,40,0.72), rgba(16,24,40,0.35)),
+          url('images/Restaurant-interio.jpg');">
+      </div>
+
+      <div class="hero-content container">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you. Send us a message anytime.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section">
+      <div class="container">
+
+        <div class="contact-grid">
+          <!-- Info -->
+          <div class="contact-left">
+            <h2 class="contact-title">Get in touch</h2>
+            <p class="contact-lead">
+              For reservations, private events, or general inquiries—reach out and we’ll get back to you as soon as possible.
+            </p>
+
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-icon">📍</div>
+                <h3>Address</h3>
+                <p>123 Gourmet Street, Downtown</p>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">📞</div>
+                <h3>Phone</h3>
+                <p>(555) 123-4567</p>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">✉️</div>
+                <h3>Email</h3>
+                <p>hello@royalrestaurant.com</p>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">🕒</div>
+                <h3>Opening Hours</h3>
+                <p>
+                  Mon–Thu: 11AM–10PM<br>
+                  Fri–Sat: 11AM–11PM<br>
+                  Sunday: 12PM–9PM
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <label for="name">Your Name</label>
+              <input id="name" name="name" type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Your Email</label>
+              <input id="email" name="email" type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Reservation / Feedback / Inquiry">
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-wide">Send Message</button>
+
+            <p class="form-note">
+              By sending this message you agree to be contacted by our team.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Royal Restaurant</div>
+        <p class="footer-text">
+          Experience culinary excellence with carefully crafted dishes made with the finest ingredients.
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="RoyalRestaurant.html">Home</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="footer-links">
+          <li>123 Gourmet Street</li>
+          <li>(555) 123-4567</li>
+          <li>hello@royalrestaurant.com</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Opening Hours</h4>
+        <ul class="footer-links">
+          <li>Mon–Thu: 11AM–10PM</li>
+          <li>Fri–Sat: 11AM–11PM</li>
+          <li>Sunday: 12PM–9PM</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">© 2026 Royal Restaurant. All rights reserved.</div>
+  </footer>
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>

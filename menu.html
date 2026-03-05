@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu | Royal Restaurant</title>
+
+  <link rel="stylesheet" href="css/menu.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="home.html">
+        <span class="brand-mark">🍴</span>
+        <span class="brand-name">Royal Restaurant</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a class="active" href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <a class="btn btn-primary" href="contact.html">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-bg"></div>
+
+      <div class="hero-content container">
+        <h1>Our Menu</h1>
+        <p>Discover our delicious offerings</p>
+      </div>
+    </section>
+
+    <section class="menu container">
+      <div class="filters">
+        <button class="pill active" data-filter="all">All</button>
+        <button class="pill" data-filter="pizza">Pizza</button>
+        <button class="pill" data-filter="burgers">Burgers</button>
+        <button class="pill" data-filter="mains">Mains</button>
+        <button class="pill" data-filter="salads">Salads</button>
+        <button class="pill" data-filter="drinks">Drinks</button>
+        <button class="pill" data-filter="desserts">Desserts</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- ===== PIZZA ===== -->
+        <article class="card" data-category="pizza">
+          <img src="images/Margherita-Pizza.jpg" alt="Margherita Pizza" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Margherita Pizza</h3><span class="price">$16.99</span>
+            </div>
+            <p class="desc">Fresh mozzarella, tomato sauce, basil.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="pizza">
+          <img src="images/Pepperoni-Supreme.jpg" alt="Pepperoni Pizza" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Pepperoni Pizza</h3><span class="price">$18.99</span>
+            </div>
+            <p class="desc">Pepperoni, mozzarella, tomato sauce.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="pizza">
+          <img src="images/Four-CheesDelight.jpg" alt="Four Cheese Delight" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Four Cheese Delight</h3><span class="price">$17.99</span>
+            </div>
+            <p class="desc">A rich blend of cheeses baked to perfection.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- ===== BURGERS ===== -->
+        <article class="card" data-category="burgers">
+          <img src="images/Classic-Cheeseburger.jpg" alt="Classic Cheeseburger" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Classic Cheeseburger</h3><span class="price">$14.99</span>
+            </div>
+            <p class="desc">Angus beef, cheddar, lettuce, tomato.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="burgers">
+          <img src="images/Mushroom-SwissBurger.jpg" alt="Mushroom Swiss Burger" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Mushroom Swiss Burger</h3><span class="price">$16.49</span>
+            </div>
+            <p class="desc">Swiss cheese, mushrooms, special sauce.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="burgers">
+          <img src="images/BBQ-BaconBurger.jpg" alt="BBQ Bacon Burger" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>BBQ Bacon Burger</h3><span class="price">$17.99</span>
+            </div>
+            <p class="desc">Double patty, bacon, cheese, BBQ sauce.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- ===== MAINS ===== -->
+        <article class="card" data-category="mains">
+          <img src="images/Ribeye-Steak.jpg" alt="Ribeye Steak" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Ribeye Steak</h3><span class="price">$32.99</span>
+            </div>
+            <p class="desc">12oz ribeye with garlic butter.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="mains">
+          <img src="images/Grilled-Salmon.jpg" alt="Grilled Salmon" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Grilled Salmon</h3><span class="price">$24.99</span>
+            </div>
+            <p class="desc">Fresh salmon with lemon butter sauce.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- ===== SALADS ===== -->
+        <article class="card" data-category="salads">
+          <img src="images/Caesar-Salad.jpg" alt="Caesar Salad" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Caesar Salad</h3><span class="price">$12.99</span>
+            </div>
+            <p class="desc">Romaine, parmesan, croutons, dressing.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="salads">
+          <img src="images/Greek-Salad.jpg" alt="Greek Salad" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Greek Salad</h3><span class="price">$11.99</span>
+            </div>
+            <p class="desc">Feta, olives, cucumber, tomato.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- ===== DRINKS ===== -->
+        <article class="card" data-category="drinks">
+          <img src="images/Fresh-Lemonade.jpg" alt="Fresh Lemonade" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Fresh Lemonade</h3><span class="price">$5.99</span>
+            </div>
+            <p class="desc">Freshly squeezed, served chilled.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="drinks">
+          <img src="images/Strawberry-drink.jpg" alt="Strawberry Drink" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Strawberry Drink</h3><span class="price">$6.49</span>
+            </div>
+            <p class="desc">Refreshing strawberry blend served cold.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="drinks">
+          <img src="images/TropicalFruit.jpg" alt="Tropical Fruit" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Tropical Fruit</h3><span class="price">$7.99</span>
+            </div>
+            <p class="desc">A tropical mix of fresh fruits.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="drinks">
+          <img src="images/Iced-Coffee.jpg" alt="Iced Coffee" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Iced Coffee</h3><span class="price">$4.99</span>
+            </div>
+            <p class="desc">Smooth coffee over ice.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- ===== DESSERTS ===== -->
+        <article class="card" data-category="desserts">
+          <img src="images/Tiramisu.jpg" alt="Tiramisu" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Tiramisu</h3><span class="price">$8.99</span>
+            </div>
+            <p class="desc">Classic Italian dessert with mascarpone.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="desserts">
+          <img src="images/Chocolate-LavaCake.jpg" alt="Chocolate Lava Cake" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Chocolate Lava Cake</h3><span class="price">$9.99</span>
+            </div>
+            <p class="desc">Warm cake with molten chocolate center.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="desserts">
+          <img src="images/Chocolate-cake.png" alt="Chocolate Cake" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Chocolate Cake</h3><span class="price">$7.99</span>
+            </div>
+            <p class="desc">Rich chocolate cake with smooth frosting.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card" data-category="desserts">
+          <img src="images/Cheesecake.png" alt="Cheesecake" loading="lazy">
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Cheesecake</h3><span class="price">$7.99</span>
+            </div>
+            <p class="desc">Creamy cheesecake with a buttery crust.</p>
+            <button class="btn btn-wide">+ Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Royal Restaurant</div>
+        <p class="footer-text">Experience culinary excellence with carefully crafted dishes made with the finest ingredients.</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="RoyalRestaurant.html">Home</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="footer-links">
+          <li>123 Gourmet Street</li>
+          <li>(555) 123-4567</li>
+          <li>hello@royalrestaurant.com</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Opening Hours</h4>
+        <ul class="footer-links">
+          <li>Mon–Thu: 11AM–10PM</li>
+          <li>Fri–Sat: 11AM–11PM</li>
+          <li>Sunday: 12PM–9PM</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">© 2026 Royal Restaurant. All rights reserved.</div>
+  </footer>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+<script src="js/main.js" defer></script>
+
+
+</body>
+</html>
